@@ -10,8 +10,6 @@ export default component$(() => {
 
   const pokemonId: Signal<number> = useSignal(1); //primitivos, booleans, strings
 
-
-
   return (
     <>
       <span class="text-2xl">Buscador simple</span>
